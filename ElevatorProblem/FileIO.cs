@@ -32,6 +32,11 @@ namespace ElevatorProblem
             }
         }
 
+        public static void writeToJsonFile(String path)
+        {
+
+        }
+
         /// <summary>
         /// Returns the list of events read from the JSON file (must be read in first or else null!)
         /// </summary>
