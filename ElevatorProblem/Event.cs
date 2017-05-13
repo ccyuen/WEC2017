@@ -18,6 +18,9 @@ namespace ElevatorProblem
 		/// 'U' = Up direction, 'D' = Down direction, 'N' = null
 		/// </summary>
 		private char direction;
+        public int time{ get; }
+        public int start{ get; }
+        public int end{ get; }
 
         public Event() {
             time = -1;

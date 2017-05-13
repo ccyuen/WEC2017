@@ -1,1 +1,11 @@
 D:\Projects\WEC2017\ElevatorProblem\bin\Debug\ElevatorProblem.exe.config
+D:\Projects\WEC2017\ElevatorProblem\bin\Debug\ElevatorProblem.exe
+D:\Projects\WEC2017\ElevatorProblem\bin\Debug\ElevatorProblem.pdb
+D:\Projects\WEC2017\ElevatorProblem\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\WEC2017\ElevatorProblem\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\WEC2017\ElevatorProblem\obj\Debug\ElevatorProblem.csprojResolveAssemblyReference.cache
+D:\Projects\WEC2017\ElevatorProblem\obj\Debug\ElevatorProblem.Form1.resources
+D:\Projects\WEC2017\ElevatorProblem\obj\Debug\ElevatorProblem.Properties.Resources.resources
+D:\Projects\WEC2017\ElevatorProblem\obj\Debug\ElevatorProblem.csproj.GenerateResource.Cache
+D:\Projects\WEC2017\ElevatorProblem\obj\Debug\ElevatorProblem.exe
+D:\Projects\WEC2017\ElevatorProblem\obj\Debug\ElevatorProblem.pdb
