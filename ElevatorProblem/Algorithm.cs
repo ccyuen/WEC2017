@@ -8,5 +8,7 @@ namespace ElevatorProblem
 {
     class Algorithm
     {
+        private List<Event> events = new List<Event>();
+
     }
 }

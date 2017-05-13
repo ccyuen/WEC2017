@@ -8,5 +8,8 @@ namespace ElevatorProblem
 {
     class FileIO
     {
+        private List<Event> _events = new List<Event>();
+
+        
     }
 }
