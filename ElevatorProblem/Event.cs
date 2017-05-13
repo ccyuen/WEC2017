@@ -11,9 +11,9 @@ namespace ElevatorProblem
     /// </summary>
     class Event
     {
-        private int time;
-        private int start;
-        private int end;
+        public int time{ get; }
+        public int start{ get; }
+        public int end{ get; }
 
         public Event() {
             time = -1;
