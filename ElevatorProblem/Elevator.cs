@@ -11,19 +11,19 @@ namespace ElevatorProblem
     /// </summary>
     class Elevator
     {
-        private int numPassengers;
-        private int currentFloor;
-        private int finalFloor;
-        private int numStops;
+        public int numPassengers;
+        public int currentFloor;
+        public int finalFloor;
+        public int numStops;
         /// <summary>
         /// 'U' = Up direction, 'D' = Down direction, 'S' = Stationary/Stopped, 'N' = null
         /// </summary>
-        private char direction;
+        public char direction;
         /// <summary>
         /// 'S' = stopped, 'M' = moving, 'N' = no mission
         /// </summary>
-        private char state;
-        private bool eligible;
+        public char state;
+        public bool eligible;
         public List<Event> events = new List<Event>();
 
 

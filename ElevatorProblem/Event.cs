@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,16 +11,16 @@ namespace ElevatorProblem
     /// </summary>
     class Event
     {
-        private int time;
-        private int start;
-        private int end;
+        public int time;
+        public int start;
+        public int end;
 		/// <summary>
 		/// 'U' = Up direction, 'D' = Down direction, 'N' = null
 		/// </summary>
-		private char direction;
-        public int time{ get; }
-        public int start{ get; }
-        public int end{ get; }
+		public char direction;
+        public int Time{ get; }
+        public int Start{ get; }
+        public int End{ get; }
 
         public Event() {
             time = -1;
