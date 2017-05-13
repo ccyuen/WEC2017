@@ -14,6 +14,10 @@ namespace ElevatorProblem
         private int time;
         private int start;
         private int end;
+		/// <summary>
+		/// 'U' = Up direction, 'D' = Down direction, 'N' = null
+		/// </summary>
+		private char direction;
 
         public Event() {
             time = -1;
@@ -25,6 +29,16 @@ namespace ElevatorProblem
             time = _time;
             start = _start;
             end = _end;
+
+            int diff = end - start;
+
+            if (diff > 0){
+                direction = 'U';
+            }
+            else if (diff < 0){
+                direction = 'D';
+            }
+
         }
     }
 }

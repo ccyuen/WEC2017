@@ -13,28 +13,31 @@ namespace ElevatorProblem
     {
         private int numPassengers;
         private int currentFloor;
-        private int destinationFloor;
+        private int finalFloor;
+        private int numStops;
         /// <summary>
         /// 'U' = Up direction, 'D' = Down direction, 'S' = Stationary/Stopped, 'N' = null
         /// </summary>
         private char direction;
-        private List<Event> events = new List<Event>();
+        /// <summary>
+        /// 'S' = stopped, 'M' = moving, 'N' = no mission
+        /// </summary>
+        private char state;
+        private bool eligible;
+        public List<Event> events = new List<Event>();
 
 
         public Elevator()
         {
-            numPassengers = -1;
-            currentFloor = -1;
-            destinationFloor = -1;
-            direction = 'N';
+            numPassengers = 0;
+            currentFloor = 0;
+            finalFloor = 0;
+            numStops = 0;
+            direction = 'S';
+            state = 'N';
             events = null;
+            eligible = false;
         }
 
-        public Elevator(List<Event> _events)
-        {
-            events = _events;
-            numPassengers = 0;
-            direction = 'S';
-        }
     }
 }
